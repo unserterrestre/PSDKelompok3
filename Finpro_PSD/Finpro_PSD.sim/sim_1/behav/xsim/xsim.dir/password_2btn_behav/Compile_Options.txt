@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "password_2btn_behav" "xil_defaultlib.password_2btn" -log "elaborate.log" 
