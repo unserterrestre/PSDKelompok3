@@ -1,0 +1,4 @@
+Running: xsim.dir/password_2btn_behav/xsimk -simmode gui -wdb password_2btn_behav.wdb -simrunnum 0 -socket 55287
+Design successfully loaded
+Design Loading Memory Usage: 206224 KB (Peak: 207168 KB)
+Design Loading CPU Usage: 1510 ms
