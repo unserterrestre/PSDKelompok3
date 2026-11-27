@@ -87,7 +87,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-<<<<<<< HEAD
       <File Path="$PSRCDIR/sources_1/new/xor_crypto.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -114,42 +113,29 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/brankas_top.vhd">
         <FileInfo>
-=======
-      <File Path="$PSRCDIR/sources_1/new/7-seg_decoder.vhd">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
->>>>>>> 1ee34abb5871f8e7f208ba6eb6e6aa6ba6607f6d
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-<<<<<<< HEAD
         <Option Name="TopModule" Val="brankas_top"/>
-=======
-        <Option Name="TopModule" Val="password_2btn"/>
->>>>>>> 1ee34abb5871f8e7f208ba6eb6e6aa6ba6607f6d
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
-<<<<<<< HEAD
       <File Path="$PSRCDIR/constrs_1/new/zybo_z7_10.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
-=======
->>>>>>> 1ee34abb5871f8e7f208ba6eb6e6aa6ba6607f6d
       <Config>
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
-<<<<<<< HEAD
       <File Path="$PSRCDIR/sim_1/new/tb_brankas_top.vhd">
         <FileInfo>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -158,11 +144,6 @@
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="tb_brankas_top"/>
-=======
-      <Config>
-        <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="password_2btn"/>
->>>>>>> 1ee34abb5871f8e7f208ba6eb6e6aa6ba6607f6d
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="TransportPathDelay" Val="0"/>
